@@ -1,0 +1,96 @@
+<!--<div class="row" style="margin-top: 5%;margin-bottom: 5%;margin-left: 10%;margin-right: 10%;"> -->
+<!--  -
+  <div class="chart-custom" style="float: middle;width: 30%; height: 400;">  
+    <canvas baseChart 
+     [data]="chartData" 
+     [labels]="chartLabel" 
+     [chartType]="chartType" 
+     [options]="chartOptions"    
+     width="150" height="100">
+    </canvas>
+  </div>
+  <div class="chart-custom" style="float: right; width: 30%; height: 400;">  
+    <canvas baseChart 
+     [data]="chartData" 
+     [labels]="chartLabel" 
+     [chartType]="chartType" 
+     [options]="chartOptions"    
+     width="150" height="100">
+    </canvas>
+  </div>
+</div> -->
+
+<div class="chart-custom" >  
+  <canvas baseChart 
+   [data]="chartData" 
+   [labels]="chartLabel" 
+   [chartType]="chartType" 
+   [options]="chartOptions"  
+   [colors]="colors"
+   >
+  </canvas>
+</div>
+<!--  
+<kendo-splitter orientation="vertical" style="height: 50%;">
+  <kendo-splitter-pane>
+    <kendo-splitter>
+      <kendo-splitter-pane [collapsible]="true" size="33%">
+        <div class="pane-content">
+          <div class="chart-custom">  
+            <canvas baseChart 
+             [data]="chartData" 
+             [labels]="chartLabel" 
+             [chartType]="chartType" 
+             [options]="chartOptions"  
+             [colors]="colors"
+             width="150" height="100">
+            </canvas>
+          </div>
+        </div>
+      </kendo-splitter-pane>
+
+      <kendo-splitter-pane>
+        <div class="pane-content">
+          <div class="chart-custom">  
+            <canvas baseChart 
+             [data]="chartData" 
+             [labels]="chartLabel" 
+             [chartType]="chartType" 
+             [options]="chartOptions"    
+             width="150" height="100">
+            </canvas>
+          </div>
+        </div>
+      </kendo-splitter-pane>
+
+      <kendo-splitter-pane [collapsible]="true" size="33%">
+        <div class="pane-content">
+          <div class="chart-custom" >  
+            <canvas baseChart 
+             [data]="chartData" 
+             [labels]="chartLabel" 
+             [chartType]="chartType" 
+             [options]="chartOptions"    
+             width="150" height="100">
+            </canvas>
+          </div>
+        </div>
+      </kendo-splitter-pane>
+      
+    </kendo-splitter>
+    
+  </kendo-splitter-pane>
+  <kendo-splitter-pane size="100px">
+    <div class="pane-content">
+      <h3>Outer splitter / Middle pane</h3>
+      <p>Resizable only.</p>
+    </div>
+  </kendo-splitter-pane>
+  <kendo-splitter-pane [resizable]="false" size="100px">
+    <div class="pane-content">
+      <h3>Outer splitter / Bottom pane</h3>
+      <p>Non-resizable and non-collapsible.</p>
+    </div>
+  </kendo-splitter-pane>
+
+</kendo-splitter>  -->
